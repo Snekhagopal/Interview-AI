@@ -27,7 +27,7 @@ export default function Setup() {
     };
 
     sessionStorage.setItem("interview_session", JSON.stringify(session));
-    router.push("/stacks");
+    router.push("/stack-selection");
   };
 
   const handleSignOut = () => {
